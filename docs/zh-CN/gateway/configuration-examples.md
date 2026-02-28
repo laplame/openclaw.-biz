@@ -104,7 +104,7 @@ x-i18n:
 
   // 消息格式
   messages: {
-    messagePrefix: "[openclaw]",
+    messagePrefix: "[BizneAI]",
     responsePrefix: ">",
     ackReaction: "👀",
     ackReactionScope: "group-mentions",
@@ -113,7 +113,7 @@ x-i18n:
   // 路由 + 队列
   routing: {
     groupChat: {
-      mentionPatterns: ["@openclaw", "openclaw"],
+      mentionPatterns: ["@BizneAI", "BizneAI"],
       historyLimit: 50,
     },
     queue: {

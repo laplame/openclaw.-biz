@@ -76,7 +76,9 @@ export function resolveMessagePrefix(
     return "";
   }
 
-  return resolveIdentityNamePrefix(cfg, agentId) ?? opts?.fallback ?? "[openclaw]";
+  // The global fallback prefix applied when nothing else is configured.
+  // Historically this was "[openclaw]"; change to the new brand name.
+  return resolveIdentityNamePrefix(cfg, agentId) ?? opts?.fallback ?? "[BizneAI]";
 }
 
 /** Helper to extract a channel config value by dynamic key. */

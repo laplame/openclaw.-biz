@@ -101,7 +101,7 @@ Save to `~/.openclaw/openclaw.json` and you can DM the bot from that number.
 
   // Message formatting
   messages: {
-    messagePrefix: "[openclaw]",
+    messagePrefix: "[BizneAI]",
     responsePrefix: ">",
     ackReaction: "👀",
     ackReactionScope: "group-mentions",
@@ -110,7 +110,7 @@ Save to `~/.openclaw/openclaw.json` and you can DM the bot from that number.
   // Routing + queue
   routing: {
     groupChat: {
-      mentionPatterns: ["@openclaw", "openclaw"],
+      mentionPatterns: ["@BizneAI", "BizneAI"],
       historyLimit: 50,
     },
     queue: {
